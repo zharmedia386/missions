@@ -1,0 +1,56 @@
+.contact {
+    background-color: #E9ECEF;
+    padding: 10px 16px 30px 30px;
+    margin: 50px 295px 64px 295px;
+    border-radius: 10px;
+}
+
+.contact-items {
+    font-family: "poppins", sans-serif;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: -8px;
+}
+
+.description {
+    font-size: 16px;
+    color: #778298;
+}
+
+/* GET STARTED FROM EMAIL */
+.email-field {
+    font-size: 16px;
+    color: #919191;
+    height: 52.6667px;
+    width: 350.677px;
+    padding: 0px 16px 0px 16px;
+    font-family: "poppins", sans-serif;
+    border: none;
+    box-shadow: rgba(56, 64, 79, 0.3) 0px 0px 1px 0px, rgba(9, 24, 54, 0.24) 0px 1px 1px 0px, rgba(9, 24, 54, 0.06) 0px 2px 5px 0px;
+}
+
+.btn {
+    background-color:  #65D777; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+    height: 52.6667px;
+    width: 175.323px;
+    box-shadow: rgba(56, 64, 79, 0.3) 0px 0px 1px 0px, rgba(9, 24, 54, 0.24) 0px 1px 1px 0px, rgba(9, 24, 54, 0.06) 0px 2px 5px 0px;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+  

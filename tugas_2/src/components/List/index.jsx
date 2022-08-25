@@ -7,7 +7,9 @@ export default function List(props) {
             <div className="row">
                 <img className="hero-image" src={props.heroImage} />
                 <div className="column">
-                    <h1 className='hero-title'>{ props.title }</h1>
+                    <a href="#" className="hero-title-list">
+                        <h1 className='hero-title'>{ props.title }</h1>
+                    </a>
                     <p>{ props.description }</p>
                     <div className="footer">
                         <button className="footer-button">Read Lesson</button>

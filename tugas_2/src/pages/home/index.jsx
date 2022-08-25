@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import Headline from '../../components/Headline'
 import List from '../../components/List'
+import Contact from '../../components/Contact'
+import Footer from '../../components/Footer'
 import { image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27 } from '../../components/List/image'
 
 function Home() {
@@ -65,6 +67,8 @@ function Home() {
                 heroImage={image26}
                 footerImage={image27}
             />
+            <Contact />
+            <Footer />
         </>
     )
 }
