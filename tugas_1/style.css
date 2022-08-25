@@ -1,0 +1,74 @@
+@import "colors.css";
+
+/* GRID CONFIGURATION */
+/* GRID AREA */
+.item1 { 
+    grid-area: merah;
+    color: var(--yellow);
+    background-color: var(--red);
+}
+
+.item2 { 
+    grid-area: hijau;
+    background-color: var(--green)
+}
+
+.item3 { 
+    grid-area: ungu;
+    background-color: var(--purple)
+}
+
+.item4 { 
+    grid-area: pink;
+    background-color: var(--pink);
+}
+
+.item5 { 
+    grid-area: hijau_muda;
+    background-color: var(--orange);
+}
+
+.item6 { 
+    grid-area: jingga ;
+    background-color: var(--orange);
+}
+
+.item7 { 
+    grid-area: biru;
+    background-color: var(--green);
+}
+
+.item8 { 
+    grid-area: biru_tua;
+    background-color: var(--blue);
+    color: var(--yellow);
+}
+
+.item9 { 
+    grid-area: kuning;
+    background-color: var(--yellow);
+}
+
+/* GRID CONTAINER */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'merah hijau hijau ungu ungu'
+    'merah pink hijau_muda hijau_muda hijau_muda'
+    'merah pink biru biru_tua biru_tua'
+    'jingga pink biru biru_tua biru_tua'
+    'jingga kuning kuning biru_tua biru_tua'
+    'jingga kuning kuning biru_tua biru_tua';
+  padding: 10px;
+  position: relative;
+}
+
+/* CHILD GRID CONTAINER */
+.grid-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

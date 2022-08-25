@@ -1,0 +1,18 @@
+import image12 from './../../utils/images/image-12.png'
+import image13 from './../../utils/images/image-13.jpeg'
+import image14 from './../../utils/images/image-14.png'
+import image15 from './../../utils/images/image-15.jpeg'
+import image16 from './../../utils/images/image-16.png'
+import image17 from './../../utils/images/image-17.jpeg'
+import image18 from './../../utils/images/image-18.png'
+import image19 from './../../utils/images/image-19.jpeg'
+import image20 from './../../utils/images/image-20.png'
+import image21 from './../../utils/images/image-21.jpeg'
+import image22 from './../../utils/images/image-22.png'
+import image23 from './../../utils/images/image-23.jpeg'
+import image24 from './../../utils/images/image-24.png'
+import image25 from './../../utils/images/image-25.jpeg'
+import image26 from './../../utils/images/image-26.png'
+import image27 from './../../utils/images/image-27.jpeg'
+
+export { image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26,image27};

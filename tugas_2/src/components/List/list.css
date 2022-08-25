@@ -1,0 +1,75 @@
+.container {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.column {
+    width: 100%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    column-gap: normal;
+}
+  
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero-title {
+    font-size: 25px;
+    color: #DE3F1C;
+}
+
+.hero-image {
+    width: 15%;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image {
+    width:28%;
+}
+
+.footer-button {
+    background-color: #FFFF; /* Green */
+    border: none;
+    border-radius: 4px;
+    font-family: "poppins", sans-serif;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(56, 64, 79, 0.3) 0px 0px 4px 0px, rgba(9, 24, 54, 0.24) 0px 1.5px 1.5px 0px, rgba(9, 24, 54, 0.06) 0px 2px 6px 0px;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile {
+    color: #778298;
+    font-size: 15px;
+    display:flex;
+    align-items: flex-end;
+    column-gap: 10px;
+}
