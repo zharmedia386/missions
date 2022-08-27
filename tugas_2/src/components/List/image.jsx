@@ -31,5 +31,18 @@ import image41 from './../../utils/images/image-41.jpeg'
 import image42 from './../../utils/images/image-42.png'
 import image43 from './../../utils/images/image-43.jpg'
 import image44 from './../../utils/images/image-44.png'
+import image45 from './../../utils/images/image-45.jpg'
+import image46 from './../../utils/images/image-46.png'
+import image47 from './../../utils/images/image-47.jpg'
+import image48 from './../../utils/images/image-48.png'
+import image49 from './../../utils/images/image-49.jpg'
+import image1042 from './../../utils/images/image-1042.png'
+import image1043 from './../../utils/images/image-1043.jpg'
+import image1044 from './../../utils/images/image-1044.png'
+import image1045 from './../../utils/images/image-1045.jpg'
+import image1046 from './../../utils/images/image-1046.png'
+import image1047 from './../../utils/images/image-1047.jpg'
 
-export { image12, image13, image14, image15, image16, image17, image18,image19, image20, image21, image22, image23, image24, image25, image26,image27, image28, image29, image30, image31, image32, image33, image34, image35, image36, image37, image38, image39, image40, image41, image42, image43, image44};
+
+export { image12, image13, image14, image15, image16, image17, image18,image19, image20, image21, image22, image23, image24, image25, image26,image27, image28, image29, image30, image31, image32, image33, image34, image35, image36, image37, image38, image39, image40, image41, image42, image43, image44, 
+image45, image46, image47, image48, image49, image1042, image1043, image1044, image1045, image1046, image1047};

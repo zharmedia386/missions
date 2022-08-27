@@ -4,7 +4,7 @@ import Headline from '../../components/Headline'
 import List from '../../components/List'
 import Contact from '../../components/Contact'
 import Footer from '../../components/Footer'
-import { image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29, image30, image31, image32, image33, image34, image35, image36, image37, image38, image39, image40, image41, image42, image43, image44} from '../../components/List/image'
+import { image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29, image30, image31, image32, image33, image34, image35, image36, image37, image38, image39, image40, image41, image42, image43, image44, image45, image46, image47, image48, image49, image1042, image1043, image1044, image1045, image1046, image1047} from '../../components/List/image'
 
 function Home() {
     return(
@@ -162,6 +162,78 @@ function Home() {
             username="Lorem ipsum"
             heroImage={image42}
             footerImage={image43}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image44}
+            footerImage={image45}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image46}
+            footerImage={image47}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image48}
+            footerImage={image49}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image1042}
+            footerImage={image1043}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image1044}
+            footerImage={image1045}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image1046}
+            footerImage={image1047}
             />
             <Contact />
             <Footer />
