@@ -4,7 +4,7 @@ import Headline from '../../components/Headline'
 import List from '../../components/List'
 import Contact from '../../components/Contact'
 import Footer from '../../components/Footer'
-import { image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27 } from '../../components/List/image'
+import { image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29, image30, image31, image32, image33, image34, image35, image36, image37, image38, image39, image40, image41, image42, image43, image44} from '../../components/List/image'
 
 function Home() {
     return(
@@ -66,6 +66,102 @@ function Home() {
                 username="Daniel Zarick"
                 heroImage={image26}
                 footerImage={image27}
+            />
+            <List
+                title="Lorem ipsum dolor"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                obcaecati tenetur iure eius earum ut molestias a architecto voluptate aliquam
+                nihil, eveniet aliquid..."
+                username="Lorem ipsum"
+                heroImage={image28}
+                footerImage={image29}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image30}
+            footerImage={image31}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image32}
+            footerImage={image33}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image34}
+            footerImage={image35}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image36}
+            footerImage={image37}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image38}
+            footerImage={image39}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image40}
+            footerImage={image41}
+            />
+            <List
+            title="Lorem ipsum dolor"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestiae a architecto voluptate aliquam
+            nihil, eveniet aliquid..."
+            username="Lorem ipsum"
+            heroImage={image42}
+            footerImage={image43}
             />
             <Contact />
             <Footer />

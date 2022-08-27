@@ -27,13 +27,11 @@ nav ul {
 
 nav li {
    margin-right: 40px;
-   list-style: none;
-   text-decoration: none;
    display: inline;
 }
 
-nav li a {
-   text-decoration: none;
+nav li:hover {
+  text-decoration: underline;
 }
 
 .navbar {
