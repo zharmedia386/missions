@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import "starter.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav a{
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background, color;
+}
+
+header nav a:hover{
+  background: linear-gradient(to bottom, #d94a7f, #fe9261);
+  color: #fff;
+}
+
+.home{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home:before{
+  content: '';
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to top, #160C54, transparent);
+  bottom: 0;
+}
+
+.info{
+  z-index: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.info .title{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8em;
+  /* background: linear-gradient(to right, #d7487e, #ea6360); */
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 360px;
+  height: 215px;
+  /* margin-bottom: 30px; */
+}
+
+.info .paragraph{
+  color: white;
+  font-size: 1.2em;
+  width: 50%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.info .btn{
+  font-size: 1.3em;
+  font-weight: 500;
+  text-decoration: none;
+  background: linear-gradient(to bottom, #d94a7f, #fe9261);
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.info .btn:hover{
+  transform: scale(1.05);
+}
+
+.home img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.content{
+  z-index: 10;
+  position: relative;
+  padding: 90px 100px;
+  background: #160C54;
+}
+
+.content h2{
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.content p{
+  color: #fff;
+  font-size: 1em;
+}
+
+.pyramids{
+  z-index: 9;
+  transform: translateX(-600px);
+  transition: 0.8s;
+}
+
+.palace{
+    z-index: 9;
+    transform: translateX(600px);
+    transition: 0.8s;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.planetbawah{
+    z-index: 8;
+    margin-top: 10px;
+    /* transform: translateY(600px); 
+    transition: 0.8s; */
+}
+
+.planet3 {
+    z-index: 8;
+    margin-top: 30px;
+    margin-left: 35px;
+    /* animation: floaty 1.8s infinite alternate; */
+    /* transform: translateY(600px); 
+    transition: 0.8s; */
+}
+
+.planet4 {
+    z-index: 8;
+    margin-right: 115px;
+    margin-left: -35px;
+    /* animation: floaty 1.8s infinite alternate; */
+    /* transform: translateY(600px); 
+    transition: 0.8s; */
+}
+
+/* @keyframes floaty {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+} */
+
+.logo, nav{
+  transform: translateY(-70px);
+  transition: 0.8s;
+}
+      
