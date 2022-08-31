@@ -160,6 +160,7 @@ header nav a:hover{
   z-index: 9;
   transform: translateX(-600px);
   transition: 0.8s;
+  margin-top: 40px;
 }
 
 .palace{
@@ -194,6 +195,17 @@ header nav a:hover{
     /* animation: floaty 1.8s infinite alternate; */
     /* transform: translateY(600px); 
     transition: 0.8s; */
+}
+
+
+.stars {
+  z-index: 4;
+  margin-right: 115px;
+  margin-left: -35px;
+  opacity: 0.5;
+  /* animation: floaty 1.8s infinite alternate; */
+  /* transform: translateY(600px); 
+  transition: 0.8s; */
 }
 
 /* @keyframes floaty {

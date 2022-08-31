@@ -35,9 +35,11 @@ window.onscroll = function(){
   if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
     info.style.opacity = "0";
     info.style.transition = "0.6s";
+    info.style.top = "4px";
   }
   else{
     info.style.opacity = "1";
     info.style.transition = "0.6s";
+    info.style.top = "4px";
   }
 }
