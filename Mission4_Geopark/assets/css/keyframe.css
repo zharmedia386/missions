@@ -1,0 +1,45 @@
+@keyframes floaty_boat {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+}
+
+@keyframes fadeInUp_boat {
+    from { 
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+@keyframes fadeInUp_soldier {
+    from { 
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes floaty_soldier {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(30px);
+    }
+}
