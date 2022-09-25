@@ -25,9 +25,9 @@ const sr = ScrollReveal({
 });
 
 /* Data */
-sr.reveal('.first-paragraph',{origin: 'top'}); 
+sr.reveal('.first-paragraph',{origin: 'top', interval: 200}); 
 // sr.reveal('.japan1',{origin: 'top'}); 
-// sr.reveal('.second-paragraph',{origin: 'top'}); 
+// sr.reveal('.second-paragraph',{origin: 'top', delay: 600, interval: 200}); 
 // sr.reveal('.content',{origin: 'left', delay: 600, interval: 200}); 
 
 

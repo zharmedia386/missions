@@ -130,7 +130,7 @@ body {
 #japan1 {
     width: 22%;
     left: 56%;
-    top: 120%;
+    top: 119.5%;
     position: absolute;
     z-index: 3;
     animation: floaty_soldier 1.8s infinite alternate;
@@ -139,7 +139,7 @@ body {
 #japan2 {
     width: 30%;
     left: 70%;
-    top: 133%;
+    top: 132.5%;
     position: absolute;
     z-index: 2;
 }
@@ -167,15 +167,15 @@ body {
 }
 
 #ground_pantai {
-    width: 110%;
-    top: 255%;
+    width: 100%;
+    top: 256%;
     position: absolute;
     z-index: 1;
 }
 
 #laut {
     width: 100%;
-    top: 230%;
+    top: 228%;
     position: absolute;
     z-index: 1;
 }
@@ -243,6 +243,7 @@ body {
     position: absolute;
     z-index: 2;
 }
+
 
 .third-paragraph {
     line-height: 2;
