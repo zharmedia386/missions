@@ -546,3 +546,49 @@ body {
     transform: translateY(600px);
     transition: 1.8s;
 }
+
+
+/*---------------------------------------------------------------- */
+/*---------------------------------------------------------------- */
+/* EIGHTH PAGE */
+
+#blackground3 {
+    width: 100%;
+    top: 700%;
+    position: absolute;
+    z-index: -1;
+}
+
+.eighth-paragraph {
+    line-height: 2;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    /* left: 45%; */
+    right: 12%;
+    top: 715%;
+    position: absolute;
+    z-index: 3;
+}
+
+#hewans3 {
+    width: 100%;
+    top: 635%;
+    position: absolute;
+    z-index: 3;
+    /* animation: floaty_boat 2.4s infinite alternate, fadeInUp_boat 1s ease-in-out 0s;
+    transform: translateY(600px);
+    transition: 1.8s; */
+}
+
+#kumpulan-burung2 {
+    width: 20%;
+    top: 698%;
+    right: 3%;
+    position: absolute;
+    z-index: 2;
+    /* animation: floaty_boat 2.4s infinite alternate, fadeInUp_boat 1s ease-in-out 0s;
+    transform: translateY(600px);
+    transition: 1.8s; */
+}
