@@ -1,0 +1,46 @@
+
+
+/* .gambar{
+   
+	height: 480px;
+	width: 500px;
+} */
+
+body{
+	background: black;
+	color: white;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -440px;
+}
+
+.img-responsive {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+.left    { 
+    text-align: left;
+    position: relative;
+    top: 5px;
+}
+.right   { 
+    text-align: right;
+    position: relative;
+    top: -255px;
+}
+.center  { 
+    text-align: center;
+    position: relative;
+    top: -125px;
+}
+.justify { 
+    text-align: justify;
+    position: relative;
+    top: 10px;
+}
