@@ -1,4 +1,5 @@
 @import "keyframe.css"; 
+@import "responsive.css"; 
 
 * {
     margin: 0;
@@ -714,7 +715,7 @@ body {
     text-align: center;
     color: #ffff;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 30px;
     top: 915%;
     left: 16%;
     position: absolute;
@@ -726,7 +727,7 @@ body {
     text-align: center;
     color: #ffff;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     top: 925%;
     left: 16%;
     position: absolute;
@@ -738,8 +739,8 @@ body {
     text-align: center;
     color: #ffff;
     font-weight: 400;
-    font-size: 18px;
-    top: 930%;
+    font-size: 24px;
+    top: 932%;
     left: 16%;
     position: absolute;
     z-index: 10;
@@ -750,8 +751,8 @@ body {
     text-align: center;
     color: #ffff;
     font-weight: 400;
-    font-size: 18px;
-    top: 935%;
+    font-size: 24px;
+    top: 939%;
     left: 16%;
     position: absolute;
     z-index: 10;
