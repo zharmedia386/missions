@@ -1,0 +1,30 @@
+body
+{
+    font-family: "Inter", sans-serif;
+}
+.text
+{
+    position: absolute;
+    color: white;
+    top: 2%;
+    left: 42%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.link{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 38%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px; 
+}
+.mouse
+{
+    position: absolute;
+    left: 5%;
+    width: 5%;
+    top: 85%;
+}

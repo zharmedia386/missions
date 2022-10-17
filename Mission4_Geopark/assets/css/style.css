@@ -196,6 +196,8 @@ body {
     top: 130%;
     position: absolute;
     z-index: 2;
+    /* animation: floaty_boat 2.4s infinite alternate, fadeInUp_boat 1s ease-in-out 0s; */
+    animation: paragraph 4s infinite alternate;
 }
 
 /*---------------------------------------------------------------- */
@@ -300,7 +302,7 @@ body {
     left: 80%;
     position: absolute;
     z-index: 4;
-    animation: floaty_soldier 1.7s infinite alternate;
+    animation: floaty_soldier 3s infinite alternate;
 }
 
 #orang2 {
@@ -309,7 +311,7 @@ body {
     left: 52%;
     position: absolute;
     z-index: 4;
-    animation: floaty_soldier 2s infinite alternate;
+    animation: floaty_soldier 4s infinite alternate;
 }
 
 .third-paragraph {
@@ -323,6 +325,7 @@ body {
     top: 225%;
     position: absolute;
     z-index: 3;
+    animation: paragraph 4s infinite alternate;
 }
 
 /*---------------------------------------------------------------- */
@@ -386,6 +389,7 @@ body {
     top: 315%;
     position: absolute;
     z-index: 3;
+    animation: paragraph 4s infinite alternate;
 }
 
 
@@ -410,6 +414,7 @@ body {
     top: 415%;
     position: absolute; */
     z-index: 3;
+    animation: paragraph 4s infinite alternate;
 }
 
 #bird1 {
@@ -466,6 +471,7 @@ body {
     top: 530%;
     position: absolute;
     z-index: 3;
+    animation: paragraph 4s infinite alternate;
 }
 
 #hewans1 {
@@ -512,6 +518,7 @@ body {
     top: 620%;
     position: absolute;
     z-index: 3;
+    animation: paragraph 4s infinite alternate;
 }
 
 #hewans2 {
@@ -531,9 +538,9 @@ body {
     right: 10%;
     position: absolute;
     z-index: 3;
-    /* animation: floaty_boat 2.4s infinite alternate, fadeInUp_boat 1s ease-in-out 0s;
+    animation: floaty_boat 5s infinite alternate, fadeInUp_boat 1s ease-in-out 0s;
     transform: translateY(600px);
-    transition: 1.8s; */
+    transition: 1.8s;
 }
 
 #scroll2 {
@@ -570,6 +577,7 @@ body {
     top: 715%;
     position: absolute;
     z-index: 3;
+    animation: paragraph 4s infinite alternate;
 }
 
 #hewans3 {
@@ -588,7 +596,163 @@ body {
     right: 3%;
     position: absolute;
     z-index: 2;
+    animation: floaty_boat 5s infinite alternate, fadeInUp_boat 1s ease-in-out 0s;
+    transform: translateY(600px);
+    transition: 1.8s;
+}
+
+
+/*---------------------------------------------------------------- */
+/*---------------------------------------------------------------- */
+/* NINETH PAGE */
+
+#blackground4 {
+    width: 100%;
+    top: 800%;
+    position: absolute;
+    z-index: 4;
+}
+
+#thanks-img {
+    width: 60%;
+    top: 805%;
+    position: absolute;
+    z-index: 5;
+    left: 20%;
     /* animation: floaty_boat 2.4s infinite alternate, fadeInUp_boat 1s ease-in-out 0s;
     transform: translateY(600px);
     transition: 1.8s; */
+}
+
+.left-text {
+    text-align: center;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 24px;
+    top: 815%;
+    left: 16%;
+    position: absolute;
+    z-index: 5;
+    animation: paragraph 2s infinite alternate;
+}
+
+.left-text-2 {
+    line-height: 1.5;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    top: 825%;
+    left: 15%;
+    position: absolute;
+    z-index: 5;
+    animation: paragraph 2s infinite alternate;
+}
+
+.right-text {
+    text-align: center;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 24px;
+    top: 816%;
+    left: 40%;
+    position: absolute;
+    z-index: 5;
+    animation: paragraph 3s infinite alternate;
+}
+
+.right-text-2 {
+    line-height: 1.5;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    top: 825%;
+    left: 40%;
+    position: absolute;
+    z-index: 5;
+    animation: paragraph 3s infinite alternate;
+}
+
+.center-text {
+    text-align: center;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 24px;
+    top: 815%;
+    left: 66%;
+    position: absolute;
+    z-index: 5;
+    animation: paragraph 4s infinite alternate;
+}
+
+.center-text-2 {
+    line-height: 1.5;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    top: 825%;
+    left: 65%;
+    position: absolute;
+    z-index: 5;
+    animation: paragraph 4s infinite alternate;
+}
+
+/*---------------------------------------------------------------- */
+/*---------------------------------------------------------------- */
+/* TENTH PAGE */
+
+#blackground5 {
+    width: 100%;
+    top: 900%;
+    position: absolute;
+    z-index: 5;
+}
+
+.main-text {
+    text-align: center;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 24px;
+    top: 915%;
+    left: 16%;
+    position: absolute;
+    z-index: 10;
+}
+
+.link-text-1 {
+    line-height: 1.5;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    top: 925%;
+    left: 16%;
+    position: absolute;
+    z-index: 10;
+}
+
+.link-text-2 {
+    line-height: 1.5;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    top: 930%;
+    left: 16%;
+    position: absolute;
+    z-index: 10;
+}
+
+.link-text-3 {
+    line-height: 1.5;
+    text-align: center;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    top: 935%;
+    left: 16%;
+    position: absolute;
+    z-index: 10;
 }
