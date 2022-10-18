@@ -13,13 +13,13 @@
     }
 
     .container section #soldier1 {
-        top: 74%;
+        top: 71%;
         width: 30%;
         left: 55%;
     }
 
     .container section #soldier2 {
-        top: 74%;
+        top: 71%;
         width: 30%;
         left: 68%;
     }
@@ -36,29 +36,312 @@
         right: 60%;
     }
 
-    /* SECOND PAGE */
-    .content .second-paragraph {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 18px;
-        top: 110%;
+     /* SECOND PAGE */
+     .content .second-paragraph {
+        margin-left: 45px;
+        margin-right: 45px;
+        font-size: 22px;
+        top: 120%;
+        background-size: cover;
+        text-align: center;
+        left: 0%;
+    }
+    .container section #japan1 {
+        top: 165%;
+        width: 40%;
+        right: 60%;
+        z-index: -1;
+    }
+
+    .container section #japan2 {
+        top: 165%;
+        width: 80%;
+        left: 20%;
+        z-index: -2;
+    }
+
+    .container section #second_background {
+        z-index: -3;
+    }
+
+    /* THIRD PAGE */
+    .container section #third_background {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .content .third-paragraph {
+        margin-left: 35px;
+        margin-right: 35px;
+        font-size: 24px;
+        top: 228%;
+        left: 8%;
         background-size: cover;
         text-align: center;
     }
 
-    .container section #japan1 {
-        top: 170%;
-        width: 40%;
-        right: 60%;
+    .container section #laut {
+        width: 100%;
+        top: 285%;
+        position: absolute;
+        z-index: 1;
     }
 
-    .container section #japan2 {
-        top: 170%;
-        width: 80%;
+    .container section #ground_pantai {
+        width: 100%;
+        top: 291%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .container section #pohon_kelapa1 {
+        width: 20%;
+        top: 280%;
+        left: 80%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .container section #pohon_kelapa2 {
+        width: 20%;
+        top: 282%;
+        left: 2%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .container section #pohon_kelapa3 {
+        width: 15%;
+        top: 285%;
+        left: 60%;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .container section #pohon_kelapa4 {
+        width: 15%;
+        top: 285%;
         left: 20%;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .container section #ciletuh_menjadi_geopark, #orang1, #orang2 {
+        display: none;
     }
 
-    /* THIRD PAGE */
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    /* FOURTH PAGE */
+    .content .fourth-paragraph {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 24px;
+        top: 323%;
+        left: 0%;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .container section #rumput {
+        width: 100%;
+        top: 391%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .container section #gunung {
+        width: 100%;
+        top: 385.5%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .container section #kuda1, .container section #kuda2, .container section #kuda3 {
+        top: 380%;
+    }
+
+    /* FIFTH PAGE */
+    .container section #background5 {
+        width: 400%;
+        top: 400%;
+        position: absolute;
+        z-index: -1;
+        margin-right: 150px;
+    }
+
+    .content .fifth-paragraph {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 22px;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        text-shadow: 3px 3px 3px #000000;
+        font-weight: 300;
+    }
+
+    .container section #bird1, .container section #bird2, .container section #bird3 {
+        width: 7%;
+    }
+
+    /* SIXTH PAGE */
+    .container section #blackground {
+        width: 400%;
+        top: 500%;
+    }
+
+    .content .sixth-paragraph {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 22px;
+        left: 3%;
+        top: 520%;
+        text-align: center;
+    }
+
+    .container section #hewans1 {
+        width: 50%;
+        top: 558%;
+        left: 45%;
+    }
+
+    .container section #scroll {
+        width: 10%;
+        top: 590%;
+    }
+
+    /* SEVENT PAGE */
+    .container section #blackground2 {
+        width: 400%;
+        top: 600%;
+    }
+
+    .container section #hewans2 {
+        width: 55%;
+        top: 658%;
+        left: 5%;
+    }
+
+    .container section #kumpulan-burung {
+        width: 45%;
+        top: 648%;
+        left: 8%;
+    }
+
+    .container section #scroll2 {
+        width: 10%;
+        top: 687%;
+    }
+
+    .content .seventh-paragraph {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 22px;
+        left: 0%;
+        right: 0%;
+        top: 625%;
+        text-align: center;
+    }
+
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    /* EIGHT PAGE */
+    .container section #blackground3 {
+        width: 400%;
+        top: 700%;
+    }
+
+    .content .eighth-paragraph {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 22px;
+        left: 0%;
+        right: 0%;
+        top: 725%;
+        text-align: center;
+    }
+
+    .container section #hewans3 {
+        top: 748%;
+    }
+
+    .container section #kumpulan-burung2 {
+        width: 25%;
+    }
+
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    /* NINETH PAGE */
+    .container section #blackground4 {
+        width: 500%;
+        top: 800%;
+    }
+
+    .container section #thanks-img {
+        top: 852%;
+        width: 110%;
+        left: -5%;
+    }
+
+    .content .left-text {
+        left: 0%;
+        right: 0%;
+        top: 810%;
+    }
+    .content .left-text-2 {
+        left: 0%;
+        right: 0%;
+        top: 815%;
+    }
+
+
+    .content .center-text {
+        left: 0%;
+        right: 0%;
+        top: 830%;
+    }
+    .content .center-text-2 {
+        left: 0%;
+        right: 0%;
+        top: 835%;
+    }
+
+
+    .content .right-text {
+        left: 0%;
+        right: 0%;
+        top: 850%;
+    }
+    .content .right-text-2 {
+        left: 0%;
+        right: 0%;
+        top: 855%;
+    }
+
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    /* TENTH PAGE */
+    .container section #blackground5 {
+        width: 600%;
+        top: 900%;
+    }
+
+    .content .main-text {
+        font-size: 25px;
+    }
+
+    .content .link-text-1, .content .link-text-2, .content .link-text-3 {
+        font-size: 20px;
+    }
+
+    
 }
 
 
