@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../MEVN"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../NodeJS"
+		},
+		{
+			"path": "../../VueJS/Consume-API-VueJs-Axios"
+		},
+		{
+			"path": "../../VueJS"
+		}
+	],
+	"settings": {}
+}

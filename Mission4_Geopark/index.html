@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="icon" href="assets/img/emblem.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <div class="cursor"></div>
@@ -49,7 +53,24 @@
                     Badan Pengelola Ciletuh-Palabuhanratu mengatakan<br>perjalanan  kawasan ini hingga ditetapkan sebagai<br> global geopark oleh Unesco, bermula pada sebelum <br> tahun 2013. Kemudian, dilakukan sosialisasi oleh Badan <br> Geologi tentang  geopark Jawa Barat di Sukabumi. <br>Setahun berikutnya, kawasan ini ditetapkan sebagai <br> calon geopark melalui Surat Keputusan Bupati Sukabumi.
                 </p>
             </div>
-            <img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark.png" alt="" id="ciletuh_menjadi_geopark">
+            <!-- SWIPER JS -->
+
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark.png" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark2.png" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark3.png" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark4.png" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark5.png" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/ciletuh_geopark/ciletuh_menjadi_geopark6.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- END SWIPER JS -->
             <img src="assets/img/ciletuh_geopark/background2.png" alt="" id="third_background">
             <img src="assets/img/ciletuh_geopark/laut.png" alt="" id="laut">
             <img src="assets/img/ciletuh_geopark/orang1.png" alt="" id="orang1">
@@ -159,6 +180,30 @@
             <img src="assets/img/background-hitam/blackground.png" alt="" id="blackground5">
         </section>
     </div>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          effect: "fade",
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
     <!--=============== SCROLL REVEAL===============-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
